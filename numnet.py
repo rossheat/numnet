@@ -193,7 +193,7 @@ class NumNet:
 
         return self.recorder
     
-    def reshape(self, X):
+    def _reshape(self, X):
         
         """ Add dimension to rank-1 array """
         
@@ -203,7 +203,7 @@ class NumNet:
 
         """ Predict targets """
 
-        X = self.reshape(X)
+        X = self._reshape(X)
         _, _, _, A2 = self._forward(X)
         return self._get_preds(A2)
     
@@ -211,7 +211,7 @@ class NumNet:
         
         """ Evaluate model on test set """
 
-        X = self.reshape(X)
+        X = self._reshape(X)
         _, _, _, A2 = self._forward(X)
         return self._accuracy(A2, y)
     
