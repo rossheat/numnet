@@ -39,7 +39,7 @@ class Recorder:
 
 class NumNet:
     
-    """ Multi-layer perceptron """
+    """ Multi-layer classifier """
     
     def __init__(self, in_features, hidden_nodes, out_classes):
         
