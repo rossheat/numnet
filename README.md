@@ -2,7 +2,7 @@
   <img height="200" src="./assets/nn.png">
 </p>
 
-A low-level two-layer neural network classifier built with [NumPy](https://github.com/numpy/numpy). 
+A trainable two-layer neural network classifier built with [NumPy](https://github.com/numpy/numpy). 
 
 - ~95% accuracy on the MNIST digits dataset. 
 - Useful for educational purposes.
