@@ -2,7 +2,7 @@
   <img height="200" src="./assets/nn.png">
 </p>
 
-A trainable two-layer neural network classifier built with [NumPy](https://github.com/numpy/numpy) for educational purposes.
+A trainable two-layer classification neural network built with [NumPy](https://github.com/numpy/numpy) for educational purposes.
 
 See `usage.ipynb` for an end-to-end example.
 
